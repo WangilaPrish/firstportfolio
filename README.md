@@ -35,7 +35,6 @@ wangilaprish-firstportfolio/
 
 ## Contact Information
 - **Email**: nabwonyaprish@gmail.com
-- **Phone**: 0705286546
 - **LinkedIn**: [Priscilla Wangila](https://www.linkedin.com/in/priscilla-wangila-414806210/)
 - **Twitter**: [@nabwonya_](https://x.com/nabwonya_)
 
