@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/41f704a2ff.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Priscilla-removebg-preview.png" class= "logo" alt ="">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contactme">Contact Me</a></li>
+                        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                    <div class="header-text">
+                        <p>Virtual Assistant</p>
+                        <h1>Hi, I'm <span>Priscilla Wangila</span></h1>
+                    </div>
+            </div>
+        </div>
+<!--------------------about---------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/me.JPG" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle" >About Me</h1>
+                        <p>I am a detail-oriented Virtual Assistant with a certification from ALX Africa. Skilled in administrative support, customer service, and effective communication, I specialize in streamlining tasks, managing schedules, and enhancing productivity for businesses and entrepreneurs. With a strong background in organization and problem-solving, I am committed to delivering efficient and reliable virtual assistance tailored to client needs.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Organizational Skills</span><br>Time management, task prioritization, and document organization.</li>
+                                <li><span>Communication & Customer Support</span><br>Professional email handling, client interaction, and conflict resolution.</li>
+                                <li><span>Technical & Research Skills</span><br>Data entry, market research, and report writing.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Virtual Assistant – Freelance</span><br>Providing administrative support, email management, and customer service for various clients.</li>
+                                <li><span>Research – Freelance</span><br>Conducting research, data organization, and report preparation.</li>
+                                <li><span>Customer Support (ALX Training)</span><br>Trained in professional communication, client handling, and problem resolution.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>University of Nairobi – Kenya</span><br>BSc in Meteorology (November 2020 – June 2024)</li>
+                                <li><span>African Leadership Experience (ALX) – Africa</span><br>AiCE Certificate (March 2024 - July 2024)</li>
+                                <li><span>African Leadership Experience (ALX) – Africa</span><br>Virtual Assistant Certificate (August 2024 – October 2024)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------services--------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-calendar"></i>
+                        <h2>Administrative & Data Management</h2>
+                        <li>Email & calendar management</li>
+                        <li>Data entry & organization</li>
+                        <li>Document preparation & organization</li>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-tty"></i>
+                        <h2>Customer Support & Communication</h2>
+                        <li>Professional email handling</li>
+                        <li>Client communication & follow-ups</li>
+                        <li>Chat & call support</li>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-hashtag"></i>
+                        <h2>Research & Social Media Assistance</h2>
+                        <li>Market & competitor research</li>
+                        <li>Report writing & presentations</li>
+                        <li>Social media scheduling & engagement</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------portfolio--------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/Screenshot 2025-02-26 163446.png" alt="">
+                        <img src="images/Screenshot 2025-02-26 163951.png" alt="">
+                        <div class="layer">
+                            <h3>Email & Calendar Management</h3>
+                            <p>Organized emails, scheduled meetings, and managed appointments for clients.,</p>
+                            <!---- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>--->
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Screenshot 2025-02-26 164307.png" alt="">
+                        <img src="images/Screenshot 2025-02-26 164739.png" alt="">
+                        <div class="layer">
+                            <h3>Customer Support Assistance</h3>
+                            <p>Handled customer inquiries, resolved issues, and maintained professional communication.</p>
+                           <!----<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>-->
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Screenshot 2025-02-26 164532.png" alt="">
+                        <img src="images/Screenshot 2025-02-26 164843.png" alt="">
+                        <div class="layer">
+                            <h3>Data Entry & Research</h3>
+                            <p>Compiled and organized large datasets, conducted market research, and prepared reports.</p>
+                             <!----<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>--->
+                        </div>
+                    </div>
+                </div>
+                <!---- <a href="#" class="btn">See More</a>--->
+            </div>
+        </div>
+        <!----------------------------------contact me--------------------->
+        <div id="contactme">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                       <h1 class="subtitle">Contact Me</h1>
+                       <p><i class="fa-solid fa-envelope"></i>nabwonyaprish@gmail.com</p>
+                       <p><i class="fa-solid fa-phone-flip"></i>0705286546</p>
+                       <div class="social-icons">
+                            <a href="https://www.facebook.com/WangilaP/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/nabwonya_"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/nabwonya_/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/priscilla-wangila-414806210/"><i class="fa-brands fa-linkedin"></i></a>
+                       </div>
+                       <a href="images/resume_priscilla wangila.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxhj3M-cFdDOP9W-nHg9_a6trHMi-2gm5JK3hyWsbpx-w3y8DdLOK-EMP5rjpZHyn6d/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML ="Message Sent Succesfully!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
