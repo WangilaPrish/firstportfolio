@@ -23,9 +23,8 @@ wangilaprish-firstportfolio/
 ├── index.html          # Main webpage
 ├── style.css           # Stylesheet for website design
 ├── images/             # Folder containing images
-├── media/              # Media-related files
-├── personal-portfolio-img/
-│   └── media/          # Additional media resources
+
+
 ```
 
 
